@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    height: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    color: white;
+    border-right: rgb(56, 100, 109) 2px solid;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border-top: solid rgb(56, 100, 109) 3px;
+    border-bottom: solid rgb(56, 100, 109) 3px;
+    font-family: 'Acme', sans-serif;
+    background-color: rgba(0, 0, 0, .5);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.home {
+    border-left:rgb(56, 100, 109) 2px solid ;
+}
+.header {
+    margin-top: 150px;
+    margin-left: 250px;
+    font-size: 100px;
+    text-shadow: darkcyan 1px 1px;
+    color: white;
+    width: 50px;
+    line-height: 100px;
+}
+.header2 {
+    font-size: 60px;
+    margin-top: 130px;
+    margin-left: 800px;
+    color: white;
+    text-shadow: black 1px 1px 5px;
+}
+p {
+    color: white;
+    text-indent: -30px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+body {
+    height: 100vh;
+    background-image: url(Background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 100px;
+    width:450px;
+    color: white;
+    font-size: 80px;
+}
+.button {
+    border-top: black solid 3px;
+    border-left: black solid 3px;
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(-45deg, teal, black);
+    border-radius: 25px;
+    color: white;
+    margin-left: 30px;
+}
+.button:focus{
+    border: black solid 3px;
+}
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+.projectLink {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+    background-color: black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*
+#710117
+#54627B
+#ECD5BB
+#FFFFFF*/
